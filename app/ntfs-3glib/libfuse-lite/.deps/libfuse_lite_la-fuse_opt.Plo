@@ -1,0 +1,126 @@
+libfuse_lite_la-fuse_opt.lo: fuse_opt.c ../config.h \
+ ../include/fuse-lite/fuse_opt.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdio.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/features.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_config.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/cdefs.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stddef.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/types.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wordsize.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/typesizes.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/pthreadtypes.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/endian.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/endian.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/byteswap.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap-common.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_stdio.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/wchar.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wchar.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_mutex.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/pthread.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sched.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/time.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sched.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/time.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_clk_tck.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/signal.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sigset.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/setjmp.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_pthread.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stdarg.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/stdio_lim.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdlib.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitflags.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitstatus.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/types.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/select.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/select.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/sysmacros.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/alloca.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/string.h \
+ /home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/assert.h
+
+../config.h:
+
+../include/fuse-lite/fuse_opt.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdio.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/features.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_config.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/cdefs.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stddef.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/types.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wordsize.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/typesizes.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/pthreadtypes.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/endian.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/endian.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/byteswap.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap-common.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_stdio.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/wchar.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wchar.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_mutex.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/pthread.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sched.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/time.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sched.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/time.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_clk_tck.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/signal.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sigset.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/setjmp.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_pthread.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stdarg.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/stdio_lim.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdlib.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitflags.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitstatus.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/types.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/select.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/select.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/sysmacros.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/alloca.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/string.h:
+
+/home/bsp/sysroot/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/assert.h:
