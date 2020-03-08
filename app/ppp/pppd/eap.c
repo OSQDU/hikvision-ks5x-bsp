@@ -1422,7 +1422,7 @@ int len;
 		}
 
 		/* Not so likely to happen. */
-		if (vallen >= len + sizeof (rhostname)) {
+		if (len - vallen >= sizeof (rhostname)) {
 			dbglog("EAP: trimming really long peer name down");
 			BCOPY(inp + vallen, rhostname, sizeof (rhostname) - 1);
 			rhostname[sizeof (rhostname) - 1] = '\0';
@@ -1848,7 +1848,7 @@ int len;
 		}
 
 		/* Not so likely to happen. */
-		if (vallen >= len + sizeof (rhostname)) {
+		if (len - vallen >= sizeof (rhostname)) {
 			dbglog("EAP: trimming really long peer name down");
 			BCOPY(inp + vallen, rhostname, sizeof (rhostname) - 1);
 			rhostname[sizeof (rhostname) - 1] = '\0';
